@@ -42,6 +42,10 @@ li a:hover {
     margin: 10px;
 }
 
+p {
+    padding: 10px;
+}
+
 .righthand {
 
     border: 5px solid black;
