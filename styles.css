@@ -1,0 +1,57 @@
+.ulnav {
+    font-size: large;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: green;
+}
+
+.float {
+    flex-direction: row-reverse;
+    float: right;
+}
+
+.box {
+
+    border: 5px solid rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    width: 65%;
+    margin: 10px;
+}
+
+.righthand {
+
+    border: 5px solid black;
+    width: 30%;
+    height: 420px;
+    margin-left: auto;
+    margin-top: -440px;
+
+}
+
+.right {
+    text-align: center;
+}
